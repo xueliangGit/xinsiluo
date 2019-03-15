@@ -1,0 +1,16 @@
+@-webkit-keyframes mouse {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); }
+  to {
+    -webkit-transform: translate3d(0, 20px, 0);
+            transform: translate3d(0, 20px, 0); } }
+@keyframes mouse {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); }
+  to {
+    -webkit-transform: translate3d(0, 20px, 0);
+            transform: translate3d(0, 20px, 0); } }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFuaS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7SUFDRSx3Q0FBNkI7WUFBN0IsZ0NBQTZCLEVBQUE7RUFFL0I7SUFDRSwyQ0FBZ0M7WUFBaEMsbUNBQWdDLEVBQUEsRUFBQTtBQUxwQztFQUNFO0lBQ0Usd0NBQTZCO1lBQTdCLGdDQUE2QixFQUFBO0VBRS9CO0lBQ0UsMkNBQWdDO1lBQWhDLG1DQUFnQyxFQUFBLEVBQUEiLCJmaWxlIjoiYW5pLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBrZXlmcmFtZXMgbW91c2V7XHJcbiAgZnJvbXtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlM2QoMCwwLDApXHJcbiAgfVxyXG4gIHRve1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgwLDIwcHgsMClcclxuICB9XHJcbn0iXX0= */
