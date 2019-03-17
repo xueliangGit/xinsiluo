@@ -44,7 +44,7 @@ window.$ === undefined && (window.$ = Zepto);
 $(function(){
   init()
 $('#all').html($('.swiper-container .swiper-slide').size())
-new Swiper('.swiper-container', {
+new Swiper('.banner .swiper-container', {
   loop: true, // 循环模式选项
 
   // 如果需要分页器
@@ -102,5 +102,19 @@ function init(){
   $('#mune').click(function(){
     $('#bignavshow').fadeIn()
   })
-
+  var wow = new WOW(
+    {
+      boxClass:     'sloth',      
+      animateClass: 'animated',
+      offset:       0,          
+      mobile:       true,      
+      live:         true,      
+      callback:     function(box) {
+        // the callback is fired every time an animation is started
+        // the argument that is passed in is the DOM node being animated
+      },
+      scrollContainer: null // optional scroll container selector, otherwise use window
+    }
+  );
+  wow.init();
 }
