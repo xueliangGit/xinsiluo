@@ -1,11 +1,1 @@
-.bignav {
-  height: 170px; }
-  .bignav .nav-list li {
-    float: left;
-    margin-right: 40px; }
-  .bignav .nav-list li .nav-t-c {
-      height: 24px;
-      overflow: hidden;
-      line-height: 24px; }
-
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJpZ25hdi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYSxFQVlkO0VBYkQ7SUFJTSxZQUFXO0lBQ1gsbUJBQWtCLEVBTW5CO0VBWEw7TUFPUSxhQUFZO01BQ1osaUJBQWdCO01BQ2hCLGtCQUFpQixFQUNsQiIsImZpbGUiOiJiaWduYXYuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJpZ25hdntcclxuICBoZWlnaHQ6IDE3MHB4O1xyXG4gIC5uYXYtbGlzdHtcclxuICAgIGxpe1xyXG4gICAgICBmbG9hdDogbGVmdDtcclxuICAgICAgbWFyZ2luLXJpZ2h0OiA0MHB4O1xyXG4gICAgICAubmF2LXQtY3tcclxuICAgICAgICBoZWlnaHQ6IDI0cHg7XHJcbiAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgICAgICBsaW5lLWhlaWdodDogMjRweDtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxufSJdfQ== */
+.bignav{height:170px}.bignav .nav-list li{float:left;margin-right:40px}.bignav .nav-list li .nav-t-c{height:24px;overflow:hidden;line-height:24px}
