@@ -115,4 +115,56 @@ function init() {
     scrollContainer: null // optional scroll container selector, otherwise use window
   });
   wow.init();
+  // popup
+  $('#submit').click(function () {
+    $('.popup-sefs').fadeIn();
+  });
+  $('#submit-lianxi').click(function () {
+    $('.popup-bottom.popup-lianxi').fadeOut();
+    $('.popup-sefs').fadeIn();
+  });
+
+  $('.lianxishangwu').click(function () {
+    $('.popup-lianxi').fadeIn();
+  });
+
+  $('.popup-sefs-close').click(function () {
+    $('.popup-sefs,.popup-lianxi').fadeOut();
+  });
+  // work 
+  function setScroll() {
+    $(".scroll-bar").each(function () {
+      $(this).slimScroll({
+        height: '100%',
+        alwaysVisible: true
+      });
+    });
+  }
+  $(window).on("resize", setScroll);
+  var allscreenswiper = new Swiper('.allscreen .swiper-container', {
+    autoHeight: true, //enable auto height
+    loop: true,
+    on: {
+      init: function init() {
+        //Swiper初始化了
+        this.emit('transitionEnd'); //在初始化时触发一次transitionEnd事件
+      }
+    }
+  });
+  var swiper = new Swiper('.h100.swiper-container', {
+    loop: true,
+    controller: {
+      control: allscreenswiper //控制Swiper1
+    },
+    navigation: {
+      nextEl: '.next',
+      prevEl: '.prev'
+    }, on: {
+      init: function init() {
+        //Swiper初始化了
+        setScroll();
+        this.emit('transitionEnd'); //在初始化时触发一次transitionEnd事件
+      }
+    }
+  });
 }
