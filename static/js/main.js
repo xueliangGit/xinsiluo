@@ -167,4 +167,19 @@ function init() {
       }
     }
   });
+  // 调整 上下居中造成的模糊 block-center-div
+  $('.block-center-div').each(function () {
+    var h = $(this).height();
+    console.log(h);
+    if (h % 2 != 0) {
+      $(this).height(parseInt(h) + 1);
+    }
+  });
+}
+function imgloaded(obj) {
+  var h = $(obj).parent().height();
+  console.log(h);
+  if (h % 2 != 0) {
+    $(obj).parent().height(parseInt(h) + 1);
+  }
 }
